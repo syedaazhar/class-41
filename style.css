@@ -15,7 +15,7 @@ body
     flex-direction: column;
     text-align: center;
     width: 500px;
-    margin: 0px;
+  
 }
 
 div.form-group
@@ -62,13 +62,12 @@ div.form-group
 
 #clear
 {
-    margin: 20px ;
-  
+    margin: 23px auto;
     display: inline-block;
-    
-   
-
+    min-width: 311px ; 
+    max-width: 218px ;
 }
+
 
 .buttons
 {
