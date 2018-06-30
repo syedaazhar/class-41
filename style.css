@@ -1,0 +1,78 @@
+body
+{
+    background-color: #fd7272;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 500px;
+    margin: 0px;
+}
+
+div.form-group
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#input
+{
+    margin:22px 15px;
+    height:50px;
+    font-size: 20px;
+}
+
+#heading
+{
+    font-size: 45px; 
+}
+
+#check
+{
+    margin: 22px 7px;
+}
+
+#result, #alert
+{
+    margin: 0px 8px 36px;
+    font-size: 20px;
+}
+
+#alert
+{
+    height: 200px;
+}
+
+#sum, #average, #product
+{
+    margin: 0 10px;
+    padding-top: 1px ;
+    align-items: center;
+}
+
+#clear
+{
+    margin: 20px ;
+  
+    display: inline-block;
+    
+   
+
+}
+
+.buttons
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
