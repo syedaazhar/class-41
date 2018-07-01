@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" 
         integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" 
         crossorigin="anonymous">
@@ -30,24 +31,26 @@
             Multi Function Calculator
         </h1>
         <div class="form-group">
-            <input id="input" type="number" class="form-control" placeholder="type a number"> 
+            <input id="numb" type="number" class="form-control" placeholder="type a number"> 
             <button id="check" type="button" class="btn btn-light" onclick="check()">
                 <i class="fas fa-plus"></i>
             </button>   
         </div>
         <p id="result" class="alert alert-success">
             Result =
-            <span>--</span>
+            
         </p>
-        <div id="alert" class="alert alert-danger">       
+        <div id="alert"  class="alert alert-danger">       
         </div>
         <div class="buttons">
-            <button id="sum" type="button" class="btn btn-lg btn-info">Info</button>
-            <button id="average" type="button" class="btn btn-lg btn-info">Primary</button>
-            <button id="product" type="button" class="btn btn-lg btn-info">Primary</button>
-         </div>   
-        <button id="clear" type="button" class="btn btn-lg btn-light clear-btn">Primary</button>
-
+            <button id="sum" type="button" class="btn btn-lg btn-info" onclick="sumBtn()">Sum</button>
+            <button id="average" type="button" class="btn btn-lg btn-info"
+                onclick="average()">Average</button>
+            <button id="product" type="button" class="btn btn-lg btn-info" 
+                onclick="product()">Product</button>
+        </div>   
+        <button id="clear" type="button" class="btn btn-lg btn-light clear-btn" 
+            onclick="clearbtn()">Clear All</button>
     </div>    
 </body>
 </html>

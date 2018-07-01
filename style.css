@@ -4,8 +4,7 @@ body
     color: #fff;
     display: flex;
     justify-content: center;
-    
-    
+    font-family: 'Orbitron', sans-serif; 
 }
 
 .container
@@ -15,7 +14,6 @@ body
     flex-direction: column;
     text-align: center;
     width: 500px;
-  
 }
 
 div.form-group
@@ -25,7 +23,7 @@ div.form-group
     flex-direction: row;
 }
 
-#input
+#numb
 {
     margin:22px 15px;
     height:50px;
@@ -34,7 +32,9 @@ div.form-group
 
 #heading
 {
-    font-size: 45px; 
+    font-size: 40px; 
+    margin-top: 20px;
+    font-weight: bold;
 }
 
 #check
@@ -55,8 +55,8 @@ div.form-group
 
 #sum, #average, #product
 {
-    margin: 0 10px;
-    padding-top: 1px ;
+    margin: 0 5px;
+    font-size: 16px;
     align-items: center;
 }
 
@@ -66,6 +66,7 @@ div.form-group
     display: inline-block;
     min-width: 311px ; 
     max-width: 218px ;
+    font-weight: bold;
 }
 
 
@@ -74,4 +75,10 @@ div.form-group
     display: flex;
     justify-content: center;
     flex-direction: row;
+}
+
+.fas
+{
+    font-size: 20px;
+    color: #fd7272;
 }
